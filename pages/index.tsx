@@ -21,7 +21,7 @@ export default function Home({ state }: { state: MonitorState }) {
       </Head>
 
       <main className={inter.className}>
-        <Header />
+        {/* <Header /> */}
 
         {state === undefined ? (
           <Center>
