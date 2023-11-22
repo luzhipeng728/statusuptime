@@ -132,7 +132,7 @@ const config = {
     },
     {
       // `id` 应该是唯一的，如果 `id` 保持不变，历史记录将被保留
-      id: 'Chatify-4-32k',
+      id: 'Chatify-4-32k-new',
       // `name` 在状态页面和回调消息中使用
       name: 'Chatify gpt-4-32k',
       // `method` 应该是有效的 HTTP 方法
@@ -147,7 +147,7 @@ const config = {
       timeout: 20000,
       // [可选] 要发送的标头
       headers: {
-        "Authorization": "Bearer sk-sidc45Kn95OKgLgA8cE6E44b3cEb4590A4260dFe6436Ae3a",
+        "Authorization": "Bearer sk-8qhaT9fbziscfjiw96838bBeD8254b0d8e9f49Eb83B4523d",
         "Editor-Version": "vscode/1.83.0",
         "Content-Type": "application/json"
       },
