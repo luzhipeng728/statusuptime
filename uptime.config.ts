@@ -132,7 +132,7 @@ const config = {
     },
     {
       // `id` 应该是唯一的，如果 `id` 保持不变，历史记录将被保留
-      id: 'Chatify-4-32k',
+      id: 'Chatify-4-32k-final',
       // `name` 在状态页面和回调消息中使用
       name: 'Chatify gpt-4-32k',
       // `method` 应该是有效的 HTTP 方法
