@@ -24,40 +24,40 @@ const config = {
   // Define all your monitors here
   monitors: [
     // Example HTTP Monitor
-    {
-      // `id` should be unique, history will be kept if the `id` remains constant
+     {
+      // `id` 应该是唯一的，如果 `id` 保持不变，历史记录将被保留
       id: 'foo_monitor',
-      // `name` is used at status page and callback message
-      name: 'My API Monitor',
-      // `method` should be a valid HTTP Method
+      // `name` 在状态页面和回调消息中使用
+      name: '我的 API 监控',
+      // `method` 应该是有效的 HTTP 方法
       method: 'POST',
-      // `target` is a valid URL
-      target: 'https://example.com',
-      // [OPTIONAL] `tooltip` is only used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
-      // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
+      // `target` 是有效的 URL
+      target: 'https://provider.chatify.me/v1/chat/completions',
+      // [可选] `tooltip` 仅在状态页面上显示工具提示
+      tooltip: '这是此监控项的工具提示',
+      // [可选] `expectedCodes` 是可接受的 HTTP 响应代码的数组，如果未指定，默认为 2xx
       expectedCodes: [200],
-      // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
+      // [可选] `timeout`（以毫秒为单位），如果未指定，默认为 10000
       timeout: 10000,
-      // [OPTIONAL] headers to be sent
+      // [可选] 要发送的标头
       headers: {
         'User-Agent': 'Uptimeflare',
-        Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer sk-8qhaT9fbziscfjiw96838bBeD8254b0d8e9f49Eb83B4523d',
       },
-      // [OPTIONAL] body to be sent
-      body: 'Hello, world!',
-      // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
+      // [可选] 要发送的正文
+      body: '{"messages":[{"role":"user","content":"Say Test"}],"model":"gpt-3.5-turbo","temperature":0.7,"stream":false}',
+      // [可选] 如果指定，响应必须包含关键字才被视为正常运行。
       responseKeyword: 'success',
     },
-    // Example TCP Monitor
+    // 示例 TCP 监控项
     {
       id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
-      // `method` should be `TCP_PING` for tcp monitors
+      name: '示例 TCP 监控',
+      // `method` 对于 TCP 监控项应该是 `TCP_PING`
       method: 'TCP_PING',
-      // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
-      tooltip: 'My production server SSH',
+      // `target` 对于 TCP 监控项应该是 `host:port`
+      target: '195.35.36.189',
+      tooltip: '我的生产服务器 SSH',
       timeout: 5000,
     },
   ],
