@@ -5,7 +5,7 @@ const config = {
   timezone: 'Asia/Shanghai',
   page: {
     // Title for your status page
-    title: "lyc8503's Status Page",
+    title: "Chatify's Status",
     // Links shown at the header of your status page, could set `highlight` to `true`
     links: [
       { link: 'https://github.com/lyc8503', label: 'GitHub' },
@@ -28,7 +28,7 @@ const config = {
       // `id` 应该是唯一的，如果 `id` 保持不变，历史记录将被保留
       id: 'foo_monitor',
       // `name` 在状态页面和回调消息中使用
-      name: '我的 API 监控',
+      name: 'provider.chatify.me',
       // `method` 应该是有效的 HTTP 方法
       method: 'POST',
       // `target` 是有效的 URL
@@ -52,13 +52,13 @@ const config = {
     // 示例 TCP 监控项
     {
       id: 'test_tcp_monitor',
-      name: '示例 TCP 监控',
+      name: '服务器状态',
       // `method` 对于 TCP 监控项应该是 `TCP_PING`
       method: 'TCP_PING',
       // `target` 对于 TCP 监控项应该是 `host:port`
       target: '195.35.36.189',
-      tooltip: '我的生产服务器 SSH',
-      timeout: 5000,
+      tooltip: '美国服务',
+      timeout: 6000,
     },
   ],
 }
