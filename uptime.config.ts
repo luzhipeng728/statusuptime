@@ -158,7 +158,7 @@ const config = {
     },
     // 示例 TCP 监控项
     {
-      id: 'test_tcp_monitor',
+      id: 'uk_tcp_monitor',
       name: '美国服务器状态',
       // `method` 对于 TCP 监控项应该是 `TCP_PING`
       method: 'TCP_PING',
@@ -168,7 +168,7 @@ const config = {
       timeout: 6000,
     },
     {
-      id: 'test_tcp_monitor',
+      id: 'singapore_tcp_monitor',
       name: '新加坡服务器状态',
       // `method` 对于 TCP 监控项应该是 `TCP_PING`
       method: 'TCP_PING',
