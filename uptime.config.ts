@@ -46,11 +46,10 @@ const config = {
         "Content-Type": "application/json"
       },
       // [可选] 要发送的正文
-      body: '{"messages":[{"role":"user","content":"Say Test"}],"model":"gpt-3.5-turbo","temperature":0.7,"stream":false}',
+      body: '{"messages":[{"role":"user","content":"Say Test"}],"model":"gpt-4","temperature":0.7,"stream":false}',
       // [可选] 如果指定，响应必须包含关键字才被视为正常运行。
       // responseKeyword: 'success',
     },
-
     {
       // `id` 应该是唯一的，如果 `id` 保持不变，历史记录将被保留
       id: 'foo_monitor',
