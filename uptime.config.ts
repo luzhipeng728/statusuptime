@@ -74,7 +74,7 @@ const config = {
       // `id` 应该是唯一的，如果 `id` 保持不变，历史记录将被保留
       id: 'channel-1',
       // `name` 在状态页面和回调消息中使用
-      name: 'Channen-1 gpt-4-turbo',
+      name: 'channel-1 gpt-4-turbo',
       // `method` 应该是有效的 HTTP 方法
       method: 'POST',
       // `target` 是有效的 URL
