@@ -26,7 +26,7 @@ const config = {
       // `method` 应该是有效的 HTTP 方法
       method: 'POST',
       // `target` 是有效的 URL
-      target: 'http://195.35.36.189:3000/v1/chat/completions',
+      target: 'https://azure-output.chatify.me/v1/chat/completions',
       // [可选] `tooltip` 仅在状态页面上显示工具提示
       tooltip: 'Azure OpenAI 服务状态',
       // [可选] `expectedCodes` 是可接受的 HTTP 响应代码的数组，如果未指定，默认为 2xx
