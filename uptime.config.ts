@@ -8,8 +8,6 @@ const config = {
     title: "Chatify's Status",
     // Links shown at the header of your status page, could set `highlight` to `true`
     links: [
-      { link: 'https://github.com/lyc8503', label: 'GitHub' },
-      { link: 'https://blog.lyc8503.site/', label: 'Blog' },
       { link: '402087139@qq.com', label: 'Email Me', highlight: true },
     ],
   },
